@@ -1,0 +1,67 @@
+/* Estilos boton color lila */
+.btn-bd-primary {
+  font-weight: 600;
+  color: #fff;
+  background-color: #7952b3;
+  border-color: #7952b3;
+}
+.btn-bd-primary:hover,
+.btn-bd-primary:active {
+  color: #fff;
+  background-color: #61428f;
+  border-color: #61428f;
+}
+.btn-bd-primary:focus {
+  box-shadow: 0 0 0 3px rgba(121, 82, 179, 0.25);
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.body {
+  /* display: flex; */
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+/*estilos para la tabla*/
+table th {
+   background-color: #337ab7 !important;
+   color: white;
+}
+table>tbody>tr>td {
+   vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+   position: absolute !important;
+}
+

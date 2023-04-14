@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head class="site-header sticky-top py-1">
+
+    <%- include('template/meta') -%>
+        <!-- Bootstrap core CSS -->
+        <%- include('template/link') -%>
+            <title>Menu</title>
+</head>
+
+<body>
+
+    <main>
+        <form id="formmenu" action="/menu" method="POST">
+            <div class="container px-4 py-6 " id="featured-3">
+                <header class="site-header sticky-top py-1 contenidologin">
+
+                    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+                        <div class="container-fluid ">
+                            <p class="navbar-brand" href="javascript:void(0)">Menú</p>
+                            <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                                <span class="navbar-toggler-icon "></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="mynavbar">
+
+                            </div>
+                            <form class="d-flex contenidologin">
+
+                                <a class="btn btn-primary  w-15 btn btn-lg btn-primary" role="button"
+                                    class=" py-1 d-none d-md-inline-block stretched-link"
+                                    style="background-color: #0760cc;color:rgb(237, 240, 233)" href="/login">Login</a>
+
+                            </form>
+                        </div>
+                    </nav>
+
+                </header>
+
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="feature col">
+                        <div class="feature-icon bg-primary bg-gradient">
+                            <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#collection" />
+                            </svg>
+                        </div>
+                        <br>
+                    
+                        <img class="mb-4" src="img/usuarios.png" alt="" width="100" height="57">
+                        <a class="btn btn-primary  w-35 btn btn-lg btn-primary" role="button"
+                            class=" py-2 d-none d-md-inline-block stretched-link"
+                            style="background-color: #05264d;color:rgb(237, 240, 233)" href="/usuarios">Usuarios</a>
+                        <div class="feature-icon bg-primary bg-gradient">
+                            <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#collection" />
+                            </svg>
+                        </div>
+                        <br>
+                        
+                        <img class="mb-4" src="img/reporte.png" alt="" width="100" height="57">
+                        <a class="btn btn-primary  w-35 btn btn-lg btn-primary" role="button"
+                            class=" py-2 d-none d-md-inline-block stretched-link"
+                            style="background-color: #05264d;color:rgb(237, 240, 233)" href="/reporte">Reportería</a>
+                            <div class="feature-icon bg-primary bg-gradient">
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#toggles2" />
+                                </svg>
+                            </div>
+                    </div>
+
+
+
+                    <div class="feature col">
+                        <div class="feature-icon bg-primary bg-gradient">
+                            <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#toggles2" />
+                            </svg>
+                        </div>
+                        <br>
+                    
+                        <img class="mb-4" src="img/factura.png" alt="" width="90" height="57">
+                        <a class="btn btn-primary  w-35 btn btn-lg btn-primary" role="button"
+                            class=" py-1 d-none d-md-inline-block stretched-link"
+                            style="background-color: #05264d;color:rgb(237, 240, 233)" href="/cliente">Facturación</a>
+                        </a>
+                        <div class="feature col">
+                            <div class="feature-icon bg-primary bg-gradient">
+                                <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#toggles2" />
+                                </svg>
+                            </div>
+                            <br>
+                         
+                            <img class="mb-4" src="img/proveedor.png" alt="" width="95" height="57">
+                            <a class="btn btn-primary  w-35 btn btn-lg btn-primary" role="button"
+                                class=" py-1 d-none d-md-inline-block stretched-link"
+                                style="background-color: #05264d;color:rgb(237, 240, 233)" href="/cliente">Proveedores</a>
+                            </a>
+                            <div class="feature col">
+                                <div class="feature-icon bg-primary bg-gradient">
+                                    <svg class="bi" width="1em" height="1em">
+                                        <use xlink:href="#toggles2" />
+                                    </svg>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    </main>
+    <%- include('template/scriptejs') -%>
+</body>
+
+</html>

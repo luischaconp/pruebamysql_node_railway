@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <%- include('template/meta') -%>
+    <!-- Bootstrap core CSS -->
+    <%- include('template/link') -%>
+  <title>Usuarios</title>
+  <%- include('template/scriptejs') -%>
+ 
+</head>
+
+<body>
+
+    <main>
+        <form id="formmenu" action="/menu" method="POST">
+            <div class="container px-4 py-6 " id="featured-3 div1">
+                <header class="site-header sticky-top py-1 contenidologin">
+
+                    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+                        <div class="container-fluid div1 ">
+                            <p class="navbar-brand" href="javascript:void(0)">Usuarios</p>
+                            <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                                <span class="navbar-toggler-icon "></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="mynavbar">
+
+                            </div>
+
+                            <class class="d-flex contenidologin">
+                                <nav>
+                                    <a class="btn btn-primary  w-15 btn btn-lg btn-primary" role="button"
+                                    class=" py-1 d-none d-md-inline-block stretched-link"
+                                    style="background-color: #0760cc;color:rgb(237, 240, 233)" href="/">Menú</a> 
+                                </nav>
+                                <br>
+                                    <nav>
+                                        <a class="btn btn-primary  w-15 btn btn-lg btn-primary" role="button"
+                                        class=" py-1 d-none d-md-inline-block stretched-link"
+                                        style="background-color: #0760cc;color:rgb(237, 240, 233)" href="/registraruse">Registrar Usuario</a>
+                                    </nav>
+                                    
+                            
+                            </form>
+                          
+                        </div><br>
+
+                    </nav>
+                   
+                    <div class="class="container px-4 py-6 " id="featured-3 div1">
+                        <div class="bg-green-400 bg-opacity-100 text-gray-100 text-center"><p class="text-xl">Registros</p></div>			
+                             <div id='recipients' class="p-8 mt-6 lg:mt-0 rounded  bg-white">			 				
+                                <table id="users" class="stripe hover"  style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
+                                    <thead>
+                                        <tr class="bg-indigo-400 bg-opacity-100 text-black">
+                                            <th data>Idusuario</th>
+                                            <th data>Usuario</th>
+                                            <th data>Password</th>
+                                            <th data>Rol_idrol</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>					
+                                </table>	
+                                        
+                            </div>
+                   
+
+        </nav>
+        </div>
+        </header>
+        </div>
+        </form>
+        	
+                	
+          </div>
+    </main>
+    
+ 
+    
+
+</body>
+
+  
+</body>
+
+</html>

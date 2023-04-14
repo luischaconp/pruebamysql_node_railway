@@ -1,0 +1,18 @@
+<!--script>
+    $(document).ready(function(){
+        const url = 'http://localhost:3001/api/area';
+        $('#area').DataTable({
+            ajax:{
+                url:url,
+                dataSrc:''
+            },
+            columns:[
+                {data: "idarea"},
+                {data: "nombre"},
+               
+            ],
+            responsive: true
+        }).columns.adjust()
+        .responsive.recalc();
+    })
+  </-script-->

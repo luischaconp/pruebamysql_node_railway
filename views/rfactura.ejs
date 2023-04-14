@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <%- include('template/meta') -%>
+        <!-- Bootstrap core CSS -->
+        <%- include('template/link') -%>
+            <title>Usuarios</title>
+            <%- include('template/scriptejs') -%>
+                <%- include('template/scriptfac') -%>
+
+</head>
+
+<body>
+
+    <main>
+        <nav>
+            <a class="btn btn-primary  w-15 btn btn-lg btn-primary" role="button"
+                class=" py-1 d-none d-md-inline-block stretched-link"
+                style="background-color: #0760cc;color:rgb(237, 240, 233)" href="/">Menú</a>
+        </nav>
+        </nav>
+        <div class="class=" container px-4 py-6 " id=" featured-3 div1">
+            <div class="bg-green-400 bg-opacity-100 text-gray-100 text-center">
+                <p class="text-xl">Registros</p>
+            </div>
+            <div id='recipients' class="p-8 mt-6 lg:mt-0 rounded  bg-white">
+
+                <table  id="area" class="table table-bordered table-striped text-center mt-4">
+                    <thead>
+                      <tr class="bg-primary text-white">
+                        <th scope="col">ID</th>
+                        <th scope="col">NOMBRE</th>     
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <% results.forEach((area)=>{ %>
+                        <tr>  
+                            <td><%= area.idarea %></td>  
+                            <td><%= area.nombre %></td>
+                            
+                                                     
+                        </tr>                                   
+                     <% }) %>
+                    </tbody>
+                  </table>
+
+            </div>
+
+            </nav>
+        </div>
+        </header>
+        </div>
+        </form>
+
+        </div>
+    </main>
+
+</body>
+
+</body>
+
+</html>
+
